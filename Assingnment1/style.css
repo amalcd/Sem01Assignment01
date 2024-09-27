@@ -1,0 +1,186 @@
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Ensure block elements behave properly */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    background-image: url('https://mpd-biblio-covers.imgix.net/9781627792561.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    
+}
+/* General Reset */
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Global Styling */
+h1 {
+    font-family: "Spicy Rice", serif;
+    font-size: 40px;
+}
+
+
+h2 {
+	font-size: 40px;
+    font-family: "Podkova", serif;
+	letter-spacing: 2px;
+	line-height: 2.5;
+}
+h3 {
+    font-size: 40px;
+    font-family: "Spicy Rice", serif;
+	letter-spacing: 2px;
+	line-height: 2.5;
+}
+p {
+    font-size: 30px;
+    font-family: "Amita", serif;
+	letter-spacing: 2px;
+	line-height: 2.5;
+}
+/* fond */
+.spicy-rice-regular {
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .amita-regular {
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+ .podkova {
+  font-family: "Podkova", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+
+/* Header */
+header {
+    display: flex;
+    color: #000000;
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: center;
+	align-items: center;
+    padding: 10px;
+    
+    background-image: linear-gradient( #B3B3B3 10%, #1db954 99%);
+}
+
+/* Main Content */
+main {
+	background-image: linear-gradient(rgb(29, 185, 84), rgb(25, 20, 20));
+	color: #efefef;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.pic {
+    display: flex;
+	gap: 10px;
+	position: sticky;
+    top: 10px;
+	color: #000000;
+    flex-direction: column;
+    width: 30%; 
+
+}
+.photo {
+    margin-left: 40px;
+    position: relative;
+    border: 0 ;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 227px;
+    height: 227px;
+}
+
+.name {
+    margin-left: 15px;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+.name > p {
+    font-size: 27px;
+    margin-left: 1px;
+    
+}
+
+.name > img {
+    width: 10%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+.video {
+    margin-left: 50px;
+}
+
+
+.learnmore {
+    margin-left: 68px;
+}
+.learnmore > p {
+    font-size: 14px;
+}
+/* Lyrics Section */
+
+.lyrics {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 1px;
+    
+}
+.lyrics div {
+    
+    margin-left: 300px; /* adjust the margin as needed */
+margin-top: 30px;
+	
+}
+
+/* Footer */
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    padding: 10px;
+    background-image: linear-gradient( #191414 10%,#19a149 50%,#199d47 30%);
+}
